@@ -1,4 +1,4 @@
-let fechaObjetivo = new Date('2024-12-21T18:00:00');
+let fechaObjetivo = new Date('2024-12-21T18:30:00');
 
 function actualizarContador() {
     const ahora = new Date();
