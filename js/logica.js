@@ -2,7 +2,7 @@ let fechaObjetivo = new Date('2024-12-21T18:00:00');
 
 function actualizarContador() {
     const ahora = new Date();
-    const diferencia = fechaObjetivo - ahora;
+    const diferencia = fechaObjetivo.getTime() - ahora.getTime();
 
     if (diferencia <= 0) {
         document.getElementById('contador').innerText = '¡La fecha ha llegado!';
